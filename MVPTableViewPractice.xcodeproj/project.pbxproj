@@ -15,6 +15,8 @@
 		756D759B2631A0C6005278EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756D75992631A0C6005278EF /* LaunchScreen.storyboard */; };
 		756D75A62631A0C7005278EF /* MVPTableViewPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756D75A52631A0C7005278EF /* MVPTableViewPracticeTests.swift */; };
 		756D75B12631A0C7005278EF /* MVPTableViewPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756D75B02631A0C7005278EF /* MVPTableViewPracticeUITests.swift */; };
+		756D75C32631A2DF005278EF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756D75C12631A2DF005278EF /* TableViewCell.swift */; };
+		756D75C42631A2DF005278EF /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 756D75C22631A2DF005278EF /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		756D75AC2631A0C7005278EF /* MVPTableViewPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVPTableViewPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		756D75B02631A0C7005278EF /* MVPTableViewPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPTableViewPracticeUITests.swift; sourceTree = "<group>"; };
 		756D75B22631A0C7005278EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		756D75C12631A2DF005278EF /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		756D75C22631A2DF005278EF /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				756D75972631A0C6005278EF /* Assets.xcassets */,
 				756D75992631A0C6005278EF /* LaunchScreen.storyboard */,
 				756D759C2631A0C6005278EF /* Info.plist */,
+				756D75C12631A2DF005278EF /* TableViewCell.swift */,
+				756D75C22631A2DF005278EF /* TableViewCell.xib */,
 			);
 			path = MVPTableViewPractice;
 			sourceTree = "<group>";
@@ -232,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				756D759B2631A0C6005278EF /* LaunchScreen.storyboard in Resources */,
+				756D75C42631A2DF005278EF /* TableViewCell.xib in Resources */,
 				756D75982631A0C6005278EF /* Assets.xcassets in Resources */,
 				756D75962631A0C5005278EF /* Main.storyboard in Resources */,
 			);
@@ -259,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				756D75932631A0C5005278EF /* ViewController.swift in Sources */,
+				756D75C32631A2DF005278EF /* TableViewCell.swift in Sources */,
 				756D758F2631A0C5005278EF /* AppDelegate.swift in Sources */,
 				756D75912631A0C5005278EF /* SceneDelegate.swift in Sources */,
 			);
