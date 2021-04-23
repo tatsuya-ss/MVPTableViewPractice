@@ -14,4 +14,10 @@ class TableViewCell: UITableViewCell {
     
     static let reuseIdentifier = "Cell1"
     
+    func configure(changeString: String) {
+        Label.text = changeString
+        let num = String(arc4random_uniform(5) + 1)
+        myImageView.image = UIImage(named: num)
+    }
+    
 }
