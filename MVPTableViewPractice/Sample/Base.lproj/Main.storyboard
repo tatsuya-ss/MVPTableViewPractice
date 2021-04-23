@@ -37,6 +37,10 @@
                             <constraint firstItem="Dk9-eC-6wb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="mjg-rg-dYH"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="searchBar" destination="Dk9-eC-6wb" id="RUE-hX-bgR"/>
+                        <outlet property="tableView" destination="e5j-IY-ZHf" id="pDb-CN-1sb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
